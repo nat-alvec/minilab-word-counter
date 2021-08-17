@@ -1,3 +1,33 @@
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.class1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.class2{
+  padding-left: 40px;
+  padding-top: 20px;
+
+}
+
+.button{
+  margin-top: 20px;
+  background-color: rgb(85, 85, 223);
+  color: white;
+  border: 1px none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.box{
+  border: 1px solid blue;
 }
